@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <meta charset=utf-8 />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Zork Map</title>
+    <script src="Autodesk.AutoCAD.js"></script>
+    <!--
+      To use online version:
+      http://app.autocad360.com/jsapi/v2/Autodesk.AutoCAD.js or
+      https://df-prod.autocad360.com/jsapi/v3/Autodesk.AutoCAD.js
+      (no real need to use the 2nd: this is only for 2016 onwards)
+      -->
+  </head>
+  <body onload="init();">
+    <div id="cy"></div>
+    <script src="jquery.min.js"></script>
+    <script src="cola.v3.min.js"></script>
+    <script src="cytoscape.min.js"></script>
+    <!--
+      To use online versions:
+      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
+      http://marvl.infotech.monash.edu/webcola/cola.v3.min.js
+      http://cytoscape.github.io/cytoscape.js/api/cytoscape.js-latest/cytoscape.min.js
+      -->
+    <script src="nodemap.js"></script>
+  </body>
+</html>
